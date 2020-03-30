@@ -3,7 +3,7 @@ SELECT count(fid) FROM film_list;
 
 -- 2
 SELECT title , description FROM film_list 
-ORDER BY length(description DESC)
+ORDER BY length(description) DESC
 LIMIT 10;
 
 -- 3
